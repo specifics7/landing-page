@@ -41,3 +41,59 @@ a {
     text-decoration: none;
 }
 
+.hero-container {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 100%;
+    padding: 135px 165px;
+}
+
+.hero-headline-content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.hero-headline {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.button-sign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    width: 135px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.hero-image-container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
