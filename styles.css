@@ -93,7 +93,7 @@ a {
 .hero-image-container {
   display: flex;
   width: 100%;
-  max-width: 580px;
+  max-width: 680px;
   aspect-ratio: 16 / 9;
   min-height: 180px; 
 }
