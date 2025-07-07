@@ -7,6 +7,15 @@ body {
     padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
+
 .header {
     display: flex;
     height: 72px;
